@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Cabin', sans-serif;
+    color: #515151;
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.navbar-brand span{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 5px;
+    font-family: 'Lobster',cursive;
+    color: #c59b5f;
+}
+.nav-link{
+    color: #c59b5f;
+    text-transform: uppercase;
+    font-family: 'Rubik',sans-serif;
+    position:relative;
+}
+.nav-link:hover , .active{
+    border-bottom: 1px solid #ffffff;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    background:url(/image_food/12.jpg) center no-repeat;
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.sub-headline{
+    font-size: 8.5rem;
+    font-family: 'Dancing Script', cursive;
+    color: #c59b5f;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+}
+.first-letter{
+    text-transform: uppercase;
+    font-size: 13.2rem;
+}
+.headline{
+    color: #ffffff;
+    font-size: 3.7rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.separator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    max-width: 5.4rem;
+    height: 0.25rem;
+    background-color: #ffffff;
+    position: relative;
+}
+.asterisk{
+    font-size: 1.2rem;
+    color: transparent;
+    margin: 0 0.6rem;
+    color: white;
+}
+.single-animation{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-top: 5px;
+}
+.discover .first-letter{
+    font-size: 80px;
+}
+.discover .sub-headline{
+    font-size: 50px;
+    color: black;
+}
+.global-headline{
+    text-align: center;
+
+}
+.discover .global-headline{
+margin-top: 2rem;
+}
+.discover .line{
+    width: 100%;
+    max-width: 5.4rem;
+    height: 0.25rem;
+    background-color: #000000;
+    position: relative;
+}
+.discover .asterisk{
+    font-size: 1.2rem;
+    color: transparent;
+    margin: 0 0.6rem;
+    color: rgb(0, 0, 0);
+}
+.rastaurant-info-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rastaurant-info-img img{
+    width: 75%;
+}
+.card{
+    transition: 0.7s;
+}
+.card:hover{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.5);
+    transform: scale(1.005);
+}
+.reserve .asterisk{
+    font-size: 1.2rem;
+    color: transparent;
+    margin: 0 0.6rem;
+    color: rgb(0, 0, 0);
+}
+.reserve .line{
+    width: 100%;
+    max-width: 5.4rem;
+    height: 0.25rem;
+    background-color: #000000;
+    position: relative;
+}
+.reserve .global-headline{
+    margin-top: 2rem;
+}
+.reserve .sub-headline{
+    font-size: 50px;
+    color: black;
+}
+.reserve .first-letter{
+    font-size: 80px;
+}
